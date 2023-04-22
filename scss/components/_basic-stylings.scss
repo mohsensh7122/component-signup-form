@@ -8,4 +8,11 @@ body {
     font-family: $font-poppins;
     font-weight: $font-regular;
     font-size: $font-body;
+    background-image: url(../../images/bg-intro-mobile.png); 
+    background-color: $red;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
 }
