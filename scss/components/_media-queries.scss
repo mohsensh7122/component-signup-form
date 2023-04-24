@@ -16,6 +16,7 @@
         text-align: left;
 
         h1 {
+            margin-top: 0;
             font-weight: $font-bold;
             font-size: 50px;
             line-height: 55px;
@@ -38,5 +39,29 @@
         height: 60px;
         width: 540px;
 
+    }
+
+    form {
+        width: 540px;
+        height: 474px;
+
+        input {
+            height: 56px;
+            width: 460px;
+        }
+
+        .submit-btn {
+            height: 56px;
+            width: 460px;
+        }
+
+        .tos {
+            width: 100%;
+
+            p {
+                height: 26px;
+
+            }
+        }
     }
 }

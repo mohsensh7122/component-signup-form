@@ -73,6 +73,10 @@ body {
   margin: 0 auto;
 }
 
+main {
+  height: 100vh;
+}
+
 .form {
   margin-top: 64px;
 }
@@ -218,6 +222,7 @@ h1 {
     text-align: left;
   }
   .intro h1 {
+    margin-top: 0;
     font-weight: 700;
     font-size: 50px;
     line-height: 55px;
@@ -233,6 +238,24 @@ h1 {
   .trial-btn-container {
     height: 60px;
     width: 540px;
+  }
+  form {
+    width: 540px;
+    height: 474px;
+  }
+  form input {
+    height: 56px;
+    width: 460px;
+  }
+  form .submit-btn {
+    height: 56px;
+    width: 460px;
+  }
+  form .tos {
+    width: 100%;
+  }
+  form .tos p {
+    height: 26px;
   }
 }
 
