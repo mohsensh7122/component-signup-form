@@ -74,11 +74,12 @@ body {
 }
 
 .form {
-  margin: 64px 0 24px 0;
+  margin-top: 64px;
 }
 
 .trial-btn-container {
-  margin: 0 auto;
+  cursor: pointer;
+  margin: 0 auto 24px;
   padding: 18px 66px;
   font-size: 15px;
   line-height: 26px;
@@ -99,9 +100,96 @@ a .bold {
   font-weight: 700;
 }
 
+form {
+  width: 327px;
+  height: 442px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+form .tos {
+  margin: 8px auto;
+  height: 42px;
+  width: 249px;
+}
+form .tos p {
+  width: 100%;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 21px;
+  text-align: center;
+  color: hsl(246, 25%, 77%);
+}
+form .tos p span {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+form input {
+  margin: 16px 0;
+  height: 56px;
+  width: 279px;
+  border-radius: 5px;
+  border: 1px solid #DEDEDE;
+  padding: 15px 19px;
+}
+form input:first-of-type {
+  margin-top: 24px;
+}
+form ::-webkit-input-placeholder { /* WebKit browsers */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+form :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  opacity: 1;
+}
+form ::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  opacity: 1;
+}
+form :-ms-input-placeholder { /* Internet Explorer 10+ */
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.25px;
+  text-align: left;
+}
+
+.submit-btn {
+  height: 56px;
+  width: 279px;
+  background-color: hsl(154, 59%, 51%);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
+
 .intro {
   text-align: center;
   color: #FFFFFF;
+  width: 80%;
+  margin: 0 auto;
 }
 .intro p {
   font-weight: 500;

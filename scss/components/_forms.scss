@@ -1,9 +1,10 @@
 .form {
-    margin: 64px 0 24px 0;
+    margin-top: 64px;
 }
 
 .trial-btn-container {
-    margin: 0 auto;
+    cursor: pointer;
+    margin: 0 auto 24px;
     padding: 18px 66px;
     font-size: 15px;
     line-height: 26px;
@@ -24,3 +25,100 @@ a {
     }
 }
 
+form {
+    width: 327px;
+    height: 442px;
+    background-color: $white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+
+    .tos {
+        margin: 8px auto;
+        height: 42px;
+        width: 249px;
+
+
+
+        p {
+            width: 100%;
+            font-weight: $font-medium;
+            font-size: 11px;
+            line-height: 21px;
+            text-align: center;
+            color: $grayish-blue;
+
+            span {
+                color: $red;
+                font-weight: $font-semibold;
+            }
+            
+        }
+    }
+    
+
+    input {
+        margin: 16px 0;
+        height: 56px;
+width: 279px;
+        border-radius: 5px;
+        border: 1px solid #DEDEDE;
+        padding: 15px 19px;
+
+        &:first-of-type {
+            margin-top: 24px;
+        }
+    }
+
+
+    ::-webkit-input-placeholder { /* WebKit browsers */
+        font-size: 14px;
+        font-weight: $font-semibold;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;
+
+    }
+    :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        font-size: 14px;
+        font-weight: $font-semibold;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;
+       opacity:  1;
+    }
+    ::-moz-placeholder { /* Mozilla Firefox 19+ */
+        font-size: 14px;
+        font-weight: $font-semibold;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;
+       opacity:  1;
+    }
+    :-ms-input-placeholder { /* Internet Explorer 10+ */
+        font-size: 14px;
+        font-weight: $font-semibold;
+        line-height: 26px;
+        letter-spacing: 0.25px;
+        text-align: left;
+    }
+}
+
+
+.submit-btn {
+    height: 56px;
+    width: 279px;
+    background-color: $green;
+    font-weight: $font-semibold;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+}
