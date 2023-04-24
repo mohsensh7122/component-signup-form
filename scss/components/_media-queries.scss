@@ -1,0 +1,42 @@
+@media screen and (min-width: 1024px) {
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .intro, .form {
+        flex: 0.5;
+    }
+
+    .intro {
+
+        height: 220px;
+        width: 525px;
+        text-align: left;
+
+        h1 {
+            font-weight: $font-bold;
+            font-size: 50px;
+            line-height: 55px;
+            height: 131px;
+            width: 525px;
+        }
+
+        p {
+            height: 78px;
+            width: 525px;
+            font-weight: $font-medium;
+            line-height: 26px;
+        }
+    }
+
+
+    // The form
+
+    .trial-btn-container {
+        height: 60px;
+        width: 540px;
+
+    }
+}

@@ -203,4 +203,37 @@ h1 {
   line-height: 36px;
 }
 
+@media screen and (min-width: 1024px) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .intro, .form {
+    flex: 0.5;
+  }
+  .intro {
+    height: 220px;
+    width: 525px;
+    text-align: left;
+  }
+  .intro h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 55px;
+    height: 131px;
+    width: 525px;
+  }
+  .intro p {
+    height: 78px;
+    width: 525px;
+    font-weight: 500;
+    line-height: 26px;
+  }
+  .trial-btn-container {
+    height: 60px;
+    width: 540px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
