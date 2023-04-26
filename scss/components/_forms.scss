@@ -60,6 +60,7 @@ form {
     
 
     input {
+        display: block;
         margin: 16px 0;
         height: 56px;
 width: 279px;
@@ -122,3 +123,12 @@ width: 279px;
     border-radius: 5px;
     box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
 }
+
+
+.error {
+    border: red;
+}
+
+// .text {
+//     display: block;
+// }
