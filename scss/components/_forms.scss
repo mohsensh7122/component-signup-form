@@ -126,9 +126,19 @@ width: 279px;
 
 
 .error {
-    border: red;
+    border: 2px solid $red;
+    background-image: url('../images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: right 5% bottom 50%;
 }
 
-// .text {
-//     display: block;
-// }
+.text {
+    display: block;
+    font-style: italic;
+    font-weight: $font-poppins;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: right;
+    color: $red;
+    margin-right: 2px;
+}
